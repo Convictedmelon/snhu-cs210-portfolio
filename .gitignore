@@ -2,12 +2,12 @@
 .DS_Store
 .idea/
 
-# CMake & CLion builds
-cmake-build-*/
-build/
+# CMake & CLion builds (ignore in any nested folder)
+**/cmake-build-*/
+**/build/
 
 # Objects/binaries
-*.o
-*.obj
-*.exe
-*.out
+**/*.o
+**/*.obj
+**/*.exe
+**/*.out
