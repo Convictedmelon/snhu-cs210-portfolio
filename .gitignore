@@ -1,0 +1,9 @@
+# CLion and CMake build folders
+cmake-build-*/
+build/
+.idea/
+.DS_Store
+*.o
+*.obj
+*.exe
+*.out
